@@ -1,5 +1,5 @@
-.MODEL SMALL                                ; 定义内存模型为small模式
-.STACK 100h                                 ; 定义堆栈大小为256字节
+.MODEL SMALL                                
+.STACK 100h                                 
 
 .DATA
     Hello DB 'Hello world!', 0dh, 0ah, '$'  ; 定义要输出的字符串 'Hello world!'
